@@ -31,3 +31,4 @@ export default {
 <style scoped>
 
 </style>
+#options_bucket > div.Box.color-border-danger > ul > li:nth-child(1) > div.flex-md-order-1.flex-order-2 > form > details > details-dialog > div.Box-footer > p:nth-child(1) > strong

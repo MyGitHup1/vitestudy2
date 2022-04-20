@@ -1,1 +1,0 @@
-import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";import{o as e,c as r}from"./main.e60fb94d.js";import"./modulepreload-polyfill.b7f2da20.js";const a={name:"global-b"};function t(n,c,s,p,b,l){return e(),r("span",null," bbbbbbb ")}var i=o(a,[["render",t]]);export{i as default};

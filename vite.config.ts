@@ -16,7 +16,7 @@ export default defineConfig({
         ]
     }), Icons({scale: 2, defaultClass: "icon"})],
     build: {
-        // assetsDir: "aasd"
+        emptyOutDir: true,
         outDir:"docs",
         assetsInlineLimit: 1024 * 10,
         rollupOptions: {
@@ -33,5 +33,5 @@ export default defineConfig({
     },
     base: "/vitestudy/",
     server:{
-    }
+    },
 })

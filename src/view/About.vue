@@ -23,7 +23,7 @@ export default {
     console.log("About create")
   },
   unmounted() {
-    console.log("about xiaohui")
+    console.log("about xiaohuia")
   }
 }
 </script>

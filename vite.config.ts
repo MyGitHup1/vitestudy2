@@ -17,7 +17,7 @@ export default defineConfig({
     }), Icons({scale: 2, defaultClass: "icon"})],
     build: {
         // assetsDir: "aasd"
-        outDir:"docs",
+        outDir:"docs/demo/",
         assetsInlineLimit: 1024 * 10,
         rollupOptions: {
             input: {

@@ -31,7 +31,7 @@ export default defineConfig({
         alias: {"@": "/src", "#": "/src/assets"},
         extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json']
     },
-    // base: "/demo/",
+    base: "/vitestudy/",
     server:{
     }
 })

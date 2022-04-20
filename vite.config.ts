@@ -17,7 +17,7 @@ export default defineConfig({
     }), Icons({scale: 2, defaultClass: "icon"})],
     build: {
         // assetsDir: "aasd"
-        outDir:"docs/demo/",
+        outDir:"docs",
         assetsInlineLimit: 1024 * 10,
         rollupOptions: {
             input: {
@@ -31,7 +31,7 @@ export default defineConfig({
         alias: {"@": "/src", "#": "/src/assets"},
         extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json']
     },
-    base: "/demo/",
+    // base: "/demo/",
     server:{
     }
 })

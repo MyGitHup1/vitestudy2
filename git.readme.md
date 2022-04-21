@@ -26,5 +26,4 @@
 * git branch -v 查看分支版本
 * git checkout <branch-name> 切换分支
 * git merge <branch-name> 将输入的分支合并到 当前所在分支
-* 要不然你还是把我删了吧ffffffffff
-  ggggggggggggggggggg
+

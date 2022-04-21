@@ -10,5 +10,6 @@
 * git rm --cache <filename>从暂存区删除文件
 * git rm -f <filename>从工作区删除文件 （删了就没了找不到了）
 * git restore <filename> 撤销工作区已修改的内容 (还没添加暂存区)
+* git reset --hard 3d01865 更改工作区到指定版本
 * git log 查看版本详细信息
 * git reflog 查看版本信息

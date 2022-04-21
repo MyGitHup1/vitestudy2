@@ -6,7 +6,7 @@
 ## git 命令
 
 * git init 初始化一个git仓库 在当前目录生成一个.git目录
-* git clone url 从远程仓库克隆项目到本地目录 不需要登录 ，初始化本地仓库并拉取代码
+* git clone url  branch 从远程仓库克隆项目到本地目录 不需要登录 ，初始化本地仓库并拉取代码
 * git add <filename> 将一个文件添加到暂存区
 * git push remote> <branch>将已提交的本地仓库push到远程仓库，不传参默认当前所在分支
 * git fetch <remote> 从远程仓库提取代码  所有分支

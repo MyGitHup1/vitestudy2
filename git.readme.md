@@ -18,3 +18,4 @@
 * git branch <new-branch-name> 创建一个分支
 * git branch 查看分支
 * git branch -v 查看分支版本
+* 我早asd

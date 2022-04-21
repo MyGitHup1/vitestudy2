@@ -1,5 +1,5 @@
 <template>
-  <p>about</p>
+  <p>about123123123123123</p>
   <p>{{ num }}</p>
   <render-fun></render-fun>
   <carbon-accessibility/>

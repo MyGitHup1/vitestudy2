@@ -11,8 +11,6 @@
 <script>
 import {ref} from "vue";
 import RenderFun from "./RenderFun.vue";
-import  MP3 from "../../public/于洋 - 望爱却步.mp3"
-
 export default {
   name: "About",
   components: {RenderFun},

@@ -13,3 +13,8 @@
 * git reset --hard 3d01865 更改工作区到指定版本
 * git log 查看版本详细信息
 * git reflog 查看版本信息
+
+##### git分支命令
+* git branch <new-branch-name> 创建一个分支
+* git branch 查看分支
+* git branch -v 查看分支版本

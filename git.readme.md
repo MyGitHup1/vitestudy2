@@ -18,5 +18,5 @@
 * git branch <new-branch-name> 创建一个分支
 * git branch 查看分支
 * git branch -v 查看分支版本
-* 我早asd
-* 我在master
+* git checkout <branch-name> 切换分支
+* git merge <branch-name> 将输入的分支合并到 当前所在分支

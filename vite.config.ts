@@ -6,10 +6,8 @@ import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
 import * as path from "path";
 
-console.log(11111111111111111,__dirname)
 // https://vitejs.dev/config/
 export default defineConfig({
-    css: undefined,
     plugins: [vue(), vueJsx(), Components({
         resolvers: [
             IconsResolver({prefix: false, enabledCollections: ["mdi", "ph", "carbon"]}),
@@ -17,11 +15,11 @@ export default defineConfig({
     }), Icons({scale: 2, defaultClass: "icon"})],
     build: {
         emptyOutDir: true,
-        outDir:"docs",
+        outDir: "docs",
         assetsInlineLimit: 1024 * 10,
         rollupOptions: {
             input: {
-                main:path.resolve(__dirname,"index.html"),
+                main: path.resolve(__dirname, "index.html"),
                 sb: path.resolve(__dirname, "sb/index.html")
             }
         }
@@ -32,6 +30,5 @@ export default defineConfig({
         extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json']
     },
     base: "/vitestudy/",
-    server:{
-    },
+    server: {},
 })

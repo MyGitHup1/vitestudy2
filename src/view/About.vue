@@ -11,6 +11,9 @@
 <script>
 import {ref} from "vue";
 import RenderFun from "./RenderFun.vue";
+
+console.log(import.meta.env)
+console.log(process.env.NODE_ENV)
 export default {
   name: "About",
   components: {RenderFun},
@@ -27,6 +30,5 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss">
 </style>
